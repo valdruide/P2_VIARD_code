@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+.flexbox{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.main{
+    /* margin: 0 50px 50px; */
+}
+
+.mt100{
+    margin-top: 50px;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+.relative{
+    position: relative;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.logo img{
+    width: 100px;
+}
+
+
+nav a{
+    padding: 40px 30px 0;
+    text-align: center;
+    border-top: 3px solid #f2f2f2;
+}
+
+nav a:hover{
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+/* Recherche */
+
+.rechercheSection{
+    margin-top: 50px;
+}
+
+.rechercheSection h2{
+    margin-bottom: 0px;
+}
+
+.barreDeRecherche{
+    height: 50px;
+}
+
+.divLocalisation{
+    background-color: #f2f2f2;
+    border-radius: 20px 0 0 20px;
+    width: 50px;
+}
+
+.divLocalisation i{
+    margin: auto;
+    font-size: 25px;
+}
+
+.inputRecherche {
+    border: 1px solid #f2f2f2;
+    padding-left: 15px;
+    width: 200px;
+    font-weight: 700;
+    outline: none;
+}
+
+.button{
+    border-radius: 0 20px 20px 0;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.button i{
+    display: none;
+}
+
+/* FILTRES */
+
+.filtreTitre{
+    margin-top: 10px;
+}
+
+.sectionFiltres{
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.filtre{
+    margin-top: 10px;
+    height: 50px;
+    border: 2px solid #f2f2f2;
+    border-left: none;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    align-items: center;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+.filtre:hover{
+    border-color: #DEEBFF;
+    color: #0065FC;
+}
+
+.filtre span{
+    padding-left: 12px;
+}
+
+.ico{
+    text-align: center;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+}
+
+.ico i{
+    margin-top: 15px;
+}
+
+.infoDiv{
+    margin-top: 20px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.iconInfo{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #f2f2f2;
+    border-radius: 1rem;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.iconInfo i{
+    margin: auto;
+    font-size: 20px;
+    color: #0065FC;  
+}
+
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}

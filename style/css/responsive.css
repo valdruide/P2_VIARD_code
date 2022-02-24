@@ -1,0 +1,197 @@
+
+/* TABLETTE */
+@media (max-width: 992px) and (min-width: 768px) {
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav a{
+        border-top: 3px solid #F2F2F2;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a:hover{
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+
+    /*HOTELS*/
+
+    .sectionHotels {
+        grid-template-columns: 3fr;
+    }
+
+    .section1{
+        background-color: white;
+    }
+
+    .section2{
+        border-radius: 0%;
+    }
+
+    .cardlist{
+        grid-template-columns: 3fr;
+    }
+
+    /*Activités*/
+
+    .actList{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 15px;
+        grid-template-areas:
+            "a c"
+            "b d"
+            "e f";
+    }
+
+    .actCard1, .actCard2, .actCard3, .actCard4, .actCard5, .actCard6{
+        width: 100%;
+        height: 400px;
+        margin: 0;
+    }
+
+    .imgVoiliers, .imgFort, .imgParc, .imgGarde, .imgLongchamp{
+        width: 100%;
+        height: 350px;
+    }
+
+    .actCard1 h3, .actCard2 h3, .actCard3 h3, .actCard4 h3, .actCard5 h3, .actCard6 h3{
+        margin-top: 15px;
+    }
+
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    nav div{
+        width: 100%;
+    }
+
+    nav a{
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a:hover{
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+
+    .logo{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo img{
+        width: 200px;
+    }
+
+    /*recherche*/
+
+    .barreDeRecherche{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 50px;
+    }
+
+    .button i{
+        display: block;
+    }
+
+    .button span{
+        display: none;
+    }
+
+    /*Filtres*/
+    .sectionFiltres{
+        margin-top: 100px;
+    }
+
+    /*HOTELS*/
+
+    .sectionHotels {
+        grid-template-columns: 3fr;
+    }
+
+    .section1{
+        background-color: white;
+    }
+
+    .section2{
+        border-radius: 0%;
+        grid-row-start: 1;
+    }
+
+    .cardlist{
+        grid-template-columns: 3fr;
+    }
+
+
+
+    /*Activités*/
+
+    .actList{
+        display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-template-areas:
+			"a"
+			"b"
+			"c"
+			"d"
+			"e"
+			"f";
+    }
+
+    .actCard1, .actCard2, .actCard3, .actCard4, .actCard5, .actCard6{
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .imgVoiliers, .imgFort, .imgParc, .imgGarde, .imgLongchamp{
+        width: 100%;
+        height: 240px;
+    }
+
+    .actCard1 h3, .actCard2 h3, .actCard3 h3, .actCard4 h3, .actCard5 h3, .actCard6 h3{
+        margin-top: 20px;
+    }
+
+    /*FOOTER*/
+
+
+    .footGrid{
+        grid-template-columns: 3fr;
+    }
+}
+
+
+
+
+
+
+        

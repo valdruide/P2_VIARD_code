@@ -1,0 +1,27 @@
+
+
+.foot{
+    background-color: #F2F2F2;
+    padding: 25px;
+    margin-left: 0;
+}
+
+.footGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li{
+    margin-top: 15px;
+}
+
+ul li a:hover{
+    color: #0065FC;
+    font-weight: 700;
+}
