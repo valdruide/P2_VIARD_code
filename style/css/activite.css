@@ -1,123 +1,53 @@
-
-
-.sectionActi{
-    padding: 15px;
+.sectionActi h2 {
+      margin-bottom: 50px;
 }
 
-.sectionActi h2{
-    margin-bottom: 50px;
+.actList {
+      display: flex;
+      justify-content: space-between;
 }
 
-.actList{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-        "a b c d"
-        "a e c f"
-    ;
+.actCardtemplate {
+      background-color: #fff;
+      border-radius: 25px;
+      width: 300px;
+      height: 400px;
+      box-shadow: 0px 5px 20px #999;
+      transition: all 0.2s;
+      overflow: hidden;
 }
 
-.actCardtemplate{
-    background-color: #fff;
-    border-radius: 25px;
-
-    box-shadow: 0px 5px 20px #999;
+.actCardtemplate:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      box-shadow: 0px 5px 10px #747474;
 }
 
-.deuxiemeCol{
-    flex-direction: column;
+.actCardtemplate:hover img {
+      transform: scale(0.95);
 }
 
-
-.actCard1{
-    height: 490px;
-    grid-area: a;
-    margin: 0 20px 0 0;
+.actCardtemplate:hover h3 {
+      color: #0065fc;
 }
 
-.actCard2{
-    height: 260px;
-    grid-area: b;
-    margin: 0 20px 20px 20px;
+.img {
+      height: 90%;
 }
 
-.actCard3{
-    height: 190px;
-    grid-area: e;
-    margin: 20px 20px 0 20px;
+.img img {
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      object-fit: cover;
+      transition: all 0.2s;
+      height: 100%;
+      width: 100%;
 }
 
-.actCard4{
-    height: 490px;
-    grid-area: c;
-    margin: 0 20px;
+.titreCard {
+      padding: 10px 15px;
 }
 
-.actCard5{
-    height: 260px;
-    grid-area: d;
-    margin: 0 0 20px 20px;
+.titreCard h3 {
+      margin: 0;
 }
-
-.actCard6{
-    height: 190px;
-    grid-area: f;
-    margin: 20px 0 0 20px;
-}
-
-.actCard1:hover, .actCard2:hover, .actCard3:hover, .actCard4:hover, .actCard5:hover, .actCard6:hover{
-    transform: scale(1.03);
-    cursor: pointer;
-    transition: .2s ease-out;
-    color: #0065FC;
-}
-
-.actCard1 h3, .actCard2 h3, .actCard3 h3, .actCard4 h3, .actCard5 h3, .actCard6 h3{
-    margin-left: 15px;
-}
-
-.actCard3 h3, .actCard6 h3{
-    margin-top: 10px;
-}
-
-.actCard4 h3{
-    margin-top: 5px;
-}
-
-
-.img img{
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    object-fit: cover;
-
-    height: 100%;
-    width: 100%;
-}
-
-.imgVoiliers{
-    width: 100%;
-    height: 90%;
-}
-
-.imgFort{
-    width: 100%;
-    height: 80%;
-}
-
-.imgParc{
-    width: 100%;
-    height: 90%;
-}
-
-.imgGarde{
-    width: 100%;
-    height: 80%;
-}
-
-.imgLongchamp{
-    width: 100%;
-    height: 80%;
-}
-
-
